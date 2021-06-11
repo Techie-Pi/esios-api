@@ -1,0 +1,38 @@
+{
+  "name": "@techiepi/esios-api",
+  "version": "1.0.0-alpha.1",
+  "description": "An API wrapper for api.esios.ree.es",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "build": "webpack build"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techie-Pi/esios-api.git"
+  },
+  "keywords": [],
+  "author": "TechiePi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Techie-Pi/esios-api/issues"
+  },
+  "homepage": "https://github.com/Techie-Pi/esios-api#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^27.0.4",
+    "webpack": "^5.38.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
